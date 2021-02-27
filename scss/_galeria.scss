@@ -1,0 +1,35 @@
+/*----- GALERIA-----*/
+
+
+.tituloGaleria {
+    position: absolute;
+    left: 290px;
+    top: 2660px;
+    font-style: italic;
+    text-align: justify;
+    font-size: 25px ;
+    text-decoration: underline;
+    z-index: $zind;
+  
+  }
+  
+  .recuadro2 {
+  position: absolute;
+  top: 2550px;
+  left: 0px;
+  z-index: 6;
+  }
+  
+  .galeria {
+  position: absolute;
+  top: 2820px;
+  left: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  z-index: $zind;
+  }
+  
+  .fotoGaleria {
+    margin: 10px;
+    z-index: $zind;
+  }

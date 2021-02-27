@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  .titulo {
+  position: absolute;
+  font-family: 'Tangerine', cursive;
+  font-weight:500 ;
+  top: 90px;
+  left: 1270px;
+  font-size: 35px;
+  color: rgb(100, 28, 40);
+  z-index: 7;
+  }
+  
+  /*Logo Beinhorn*/
+  
+  .logo {
+    position: absolute;
+    top: 130px;
+    left: 1280px;
+    z-index: 5;
+    
+  }
+  .logo :hover {
+    transform: rotate(360deg);
+    transition: transform 3s;
+  }
+  .logoInterno {
+    position: absolute;
+    top: 175px;
+    left: 1353px;
+    z-index: 8;
+  }
+  /*Breadcrumb*/
+  
+  .container-fluid {
+    background-color:  rgb(252, 244, 245);
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    z-index: 8;
+    position: absolute;
+    top: 0px;
+    border: solid 5px rgb(252, 222, 222) ;
+  }
+  .nav-link {
+    color: black;
+  }
+  
+  
+  /*paneles y fondo*/
+  
+  .panel1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  
+  .bebeFondo {
+  position: fixed;
+  top: 0px;
+  }
+  
+  .recuadroRosa{
+  position: absolute;
+  left:0px;
+  top: 800px;
+  z-index: 4;
+  }
+  
