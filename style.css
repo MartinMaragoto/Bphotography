@@ -37,7 +37,7 @@ z-index: 7;
 }
 /*Breadcrumb*/
 
-.container-fluid {
+/*.container-fluid {
     background-color:  rgb(252, 244, 245);
     height: 80px;
     font-size: 20px;
@@ -46,7 +46,7 @@ z-index: 7;
     position: absolute;
     top: 0px;
     border: solid 5px rgb(252, 222, 222) ;
-}
+}*/
 .nav-link {
     color: black;
 }

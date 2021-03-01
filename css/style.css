@@ -7,7 +7,7 @@ body {
   font-family: "Tangerine", cursive;
   font-weight: 500;
   top: 90px;
-  left: 1270px;
+  left: 1269px;
   font-size: 35px;
   color: #641c28;
   z-index: 7;
@@ -34,17 +34,16 @@ body {
 }
 
 /*Breadcrumb*/
-.container-fluid {
-  background-color: #fcf4f5;
+/*.container-fluid {
+  background-color:  rgb(252, 244, 245);
   height: 80px;
   font-size: 20px;
-  font-family: "Bad Script", cursive;
+  font-family: 'Bad Script', cursive;
   z-index: 8;
   position: absolute;
   top: 0px;
-  border: solid 5px #fcdede;
-}
-
+  border: solid 5px rgb(252, 222, 222) ;
+}*/
 .nav-link {
   color: black;
 }
