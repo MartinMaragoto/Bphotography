@@ -5,8 +5,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
+    font-size: 20px;
 
   }
+
   
 /* 
   .titulo {
@@ -22,42 +24,32 @@ body {
   
   Logo Beinhorn*/
   
-  .list-container{
-    display: flex;
-    justify-content: center;
-  }
-
-  .menu {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: rgb(252, 244, 245) ;
-    border: solid 5px rgb(252, 222, 222) ;
-    font-family: 'Bad Script', cursive;
-  }
-  
   li {
-    list-style-type: none;
-    z-index: 5;
-    margin: 0 30px 0 30px;
-  }
+    margin: 0 20px 0 20px;
+}
 
   /*LOGO BEINHORN*/
   .style-container {
     display: flex;
-    justify-content: right;
+    height: 115px;
+    width: 115px;
   }
   .logo{
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: right;
+    position: relative;
+    top: 90px;
   }
+
   .logo :hover {
     transform: rotate(360deg);
     transition: transform 3s;
   }
-
+ .diafragma {
+   display: flex;
+   width: 100%;
+ }
   /*.style-panel {
     display: flex;
     width: 100%;
@@ -74,6 +66,9 @@ body {
   .logoInterno {
     display: flex;
     z-index: 8;
+    position: relative;
+    top: 13px;
+    left: 34px;
   }
 
 
@@ -92,38 +87,31 @@ body {
   display: grid;
   grid-templsate-columns: auto;
   }*/
-  
-  .recuadro-container {
-display: grid;
-width: 100%;
-grid-template-rows: auto;
+    
+ .pruebarosa{
+   z-index: 5;
+   position: relative;
+   top: 550px;
+   height: 100%;
+   width: 100%;
 
-  }
-  .recuadroRosa{
-  
-  z-index: 4;
-  }
-
+ }
 
   
-  /*Breadcrumb
+  /*Navbar*/
   
   .container-fluid {
-    background-color:  rgb(252, 244, 245);
+    background-color: rgba(255, 255, 255, 0.418);
     height: 80px;
     font-size: 20px;
     font-family: 'Bad Script', cursive;
     z-index: 8;
     position: absolute;
     top: 0px;
-    border: solid 5px rgb(252, 222, 222) ;
   }
 
+
   
-  .nav-link {
-    color: black;
-  }
-  */
 
   
    

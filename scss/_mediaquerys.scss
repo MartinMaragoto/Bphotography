@@ -1,190 +1,110 @@
 /* -----QUERY MEDIA-----*/
 @media only screen and (max-width: 460px ) {
 
+.carousel {
+    max-width: 200px;
+}
 
-    .tituloTexto {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      top: 880px;
-    }
-    .tituloCovid{
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .bloqueUno {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .tituloTextodos {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      top: 1250px;
-    }
-    .bloqueDos {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      top: 1300px;
-    }
-    .tituloGaleria {
-      width: 900px;
-      height: 50px;
-      left: 300px;
-      display: flex;
-    }
-    
-    
-    
+.tituloTexto {
+    font-size: 9px;
+  }
+  
+  .tituloCovid {
+    font-size: 9px;
+  }
+  .bloqueUno { 
+    font-size: 9px;
+  }
+  
+  .tituloTextodos {
+    font-size: 9px;
+  }
+  
+  .bloqueDos {
+    font-size: 9px;
+  }
+
+
+
     }
     
     @media only screen and (min-width: 461px) 
     and (max-width: 741px) {
     
-    
-    
-          .tituloTexto {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 880px;
-          }
-          .tituloCovid{
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-          .bloqueUno {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-          .tituloTextodos {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1250px;
-          }
-          .bloqueDos {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1300px;
-          }
-          .tituloGaleria {
-              width: 900px;
-              height: 50px;
-              left: 300px;
-              display: flex;
-          }
+       .carousel {
+
+        max-width: 220px;
+       }
+       .tituloTexto {
+        font-size: 11px;
+      }
       
-          
+      .tituloCovid {
+        font-size: 11px;
+      }
+      .bloqueUno { 
+        font-size: 11px;
+      }
+      
+      .tituloTextodos {
+        font-size: 11px;
+      }
+      
+      .bloqueDos {
+        font-size: 11px;
+      }
           
     }
     
     @media only screen and (min-width: 742px) 
     and (max-width: 840px) {
     
-    
-          .tituloTexto {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 880px;
+        .carousel {
+            max-width: 280px;
+        }
+        .tituloTexto {
+            font-size: 14px ;
           }
-          .tituloCovid{
-              width: 90%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
+          
+          .tituloCovid {
+            font-size: 14px;
           }
-          .bloqueUno {
-              width: 90%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
+          .bloqueUno { 
+            font-size: 14px;
           }
+          
           .tituloTextodos {
-              width: 90%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1250px;
+            font-size: 14px;
           }
+          
           .bloqueDos {
-              width: 90%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1300px;
-          }
-          .tituloGaleria {
-              width: 900px;
-              height: 50px;
-              left: 300px;
-              display: flex;
+            font-size: 14px;
           }
       
     }
     @media only screen and (min-width: 841px) 
     and (max-width: 1000px) {
     
-          .bebeFondo {
-              top: 50px;
+        .carousel {
+            max-width: 350px; 
+
           }
           .tituloTexto {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 880px;
+            font-size: 16px;
           }
-          .tituloCovid{
-              width: 70%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-          .bloqueUno {
-              width: 70%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-          .tituloTextodos {
-              width: 70%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1250px;
-          }
-          .bloqueDos {
-              width: 70%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 1300px;
-          }
-          .tituloGaleria {
-              width: 900px;
-              height: 50px;
-              left: 300px;
-              display: flex;
-          }
-     
           
+          .tituloCovid {
+            font-size: 16px;
+          }
+          .bloqueUno { 
+            font-size: 16px;
+          }
+          
+          .tituloTextodos {
+            font-size: 16px;
+          }
+          
+          .bloqueDos {
+            font-size: 16px;
+          }
     }
