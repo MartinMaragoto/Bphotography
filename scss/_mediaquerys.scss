@@ -1,6 +1,11 @@
 /* -----QUERY MEDIA-----*/
 @media only screen and (max-width: 460px ) {
-
+  .diafragma {
+    width: 25%;
+  }
+  .bph {
+    width: 25%;
+  }
 .carousel {
     max-width: 200px;
 }
@@ -30,7 +35,12 @@
     
     @media only screen and (min-width: 461px) 
     and (max-width: 741px) {
-    
+      .diafragma {
+        width: 50%;
+      }
+      .bph {
+        width: 50%;
+      }
        .carousel {
 
         max-width: 220px;
@@ -58,7 +68,12 @@
     
     @media only screen and (min-width: 742px) 
     and (max-width: 840px) {
-    
+      .diafragma {
+        width: 60%;
+      }
+      .bph {
+        width: 60%;
+      }
         .carousel {
             max-width: 280px;
         }
@@ -85,6 +100,14 @@
     @media only screen and (min-width: 841px) 
     and (max-width: 1000px) {
     
+
+      .diafragma {
+        width: 75%;
+      }
+      .bph {
+        width: 75%;
+      }
+
         .carousel {
             max-width: 350px; 
 

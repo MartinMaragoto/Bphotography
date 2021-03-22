@@ -1,11 +1,32 @@
 /*-----QUIENES SOMOS-----*/
 
+.texto-container {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background: rgb(255, 255, 255);
+border-radius: 1em;
+border: 1em solid rgb(255, 204, 204);
+}
+
+  /* Texto informativo*/
+
+
+  .titulo-seccion {
+    text-align: center;
+  }
+  .subtitulo1 {
+    text-align: center;
+  }
+  .parrafo1 {
+    text-align: justify;
+  }
 
 /*Carrusel de Bootstrap*/
 
 .carousel {
-  max-width: 400px; 
-  
+  max-width: 400px;
+  float: left;
 }
 .carousel-inner{
     height: 100%;
@@ -21,77 +42,15 @@
   max-width: 100%;
   height: auto;
 }  
-  /* Texto informativo*/
-  
-  .bloqueTexto {
-    font-style: italic;
-    font-size: 20px;
-    display: flex;
-    align-content: center;
-    width: 100%;
-    z-index: $zind;
-  }
-  
-  .tituloTexto {
-    position: absolute;
-    left: 440px;
-    text-align: justify;
-    margin: 0px 40px;
-    font-size: 25px ;
-    top: 870px;
-    text-decoration: underline;
-    z-index: $zind;
-  }
-  
-  .tituloCovid {
-    position: absolute;
-    left: 680px;
-    top: 1020px;
-    text-align: justify;
-    margin: 0px 40px;
-    text-decoration: underline;
-    z-index: $zind;
-  }
-  .bloqueUno { 
-    position: absolute;
-    left: 680px;
-    top: 1100px;
-    text-align: justify;
-    margin: 0px 40px;
-    z-index: $zind;
-  }
-  
-  .tituloTextodos {
-  position: absolute;
-  left: 680px;
-  top: 1270px;
-  text-align: justify;
-  margin: 0px 40px;
-  text-decoration: underline;
-  z-index: $zind;
-  }
-  
-  .bloqueDos {
-  position: absolute;
-  text-align: justify;
-  margin: 0px 40px;
-  left: 680px;
-  top: 1350px;
-  z-index: $zind;
-  }
+
 
   /*Fondo de bebe rugiendo*/
 
-.sticky-container {
-  width: 100%;
-  position: absolute;
-  top: 1000px;
-}
 
-.beba-leona {
-  height: 1200px;
+.leona-container {
+  height: 110em;
   position: relative;
-  top: 250px;
+  bottom: 10em;
 }
 .lulu-ruge {
   position: sticky;
