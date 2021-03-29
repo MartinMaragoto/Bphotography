@@ -19,19 +19,15 @@
   }
   
   .recuadro2 {
- background-color: rgb(255, 255, 255);
- border-radius: 1em;
- border: 1em solid rgb(255, 204, 204);
-  }
-  .recuadro-galeria {
-    height: 100%;
     width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 1em;
+    border: 1em solid rgb(255, 204, 204);
   }
-  
+
   .galeria {
   width: 100%;
-  position: absolute;
-  top: 2820px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;

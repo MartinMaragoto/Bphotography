@@ -12,16 +12,16 @@ body {
 .titulo-container {
 
   position: absolute;
-  top: 8em;
+  top: 7em;
   right: 1em;
   text-align: right;
 }
   .titulo {
   font-family: 'Tangerine', cursive;
   font-weight:500 ;
-  font-size: 1.5rem;
   color: rgb(100, 28, 40);
   z-index: 9;
+  font-size: 3em;
   object-fit: contain;
   }
   
@@ -33,6 +33,7 @@ body {
   float: right;
   width: 25%;
   height: auto;
+  margin-bottom: 4em;
 }
 .panel1 {
   float: right;
@@ -44,6 +45,7 @@ body {
   
   .diafragma-div {
     position: absolute;
+    width: 10%;
     top: 11em;
     right: 0em;
     z-index: 9;
@@ -71,16 +73,25 @@ body {
   
   /*Navbar*/
   
+  
   .container-fluid {
-    background-color: rgba(255, 255, 255, 0.418);
+   
     height: 70px;
     font-size: 1.5em;
     font-family: 'Bad Script', cursive;
+    position: absolute;
+    top: 0em;
     z-index: 8;
   }
+  .navbar {
+    padding: 0px;
+  } 
 
   .navbar-light .navbar-nav .nav-link {
     color: black;
+  }
+  .navbar-brand {
+    padding-left: 0.85em;
   }
 
   
